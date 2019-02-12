@@ -29,6 +29,7 @@ def Compare(PurchasePrice, CashPaid):
 		print("ZERO")
 		return
 
+
 	difference = CashPaid - PurchasePrice
 	key = 0
 	amount = 0
@@ -41,7 +42,6 @@ def Compare(PurchasePrice, CashPaid):
 				amount = int(difference / k)
 				difference = 0
 				break
-			print(k)
 
 		difference = 0
 
